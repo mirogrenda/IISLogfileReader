@@ -1,0 +1,24 @@
+﻿body 
+{
+    margin: 0;
+    border: none;
+    padding: 20px;
+    font-family: Georgia;
+    font-size: 1em;
+}
+
+#Logo
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: solid 20px #fff;
+    background-color: #fff;
+}
+
+#Output {}
+#Output legend { padding: 0 10px 6px 10px; font-weight: bold; }
+#OutputList { font-family: Courier New; }
+#OutputList li { line-height: 160%; }
+#OutputList li.Error { color: #f00; }
+    
