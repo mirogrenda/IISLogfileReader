@@ -24,6 +24,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SampleWebsite", "SampleWebs
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWindow", "SampleWindow\SampleWindow.csproj", "{CD0B2503-D177-44A0-B626-A5D969D6B6DB}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -47,6 +49,12 @@ Global
 		{9541613E-73E5-4FAF-B0CE-6A9B87E33E5E}.Release (Version)|Any CPU.Build.0 = Debug|Any CPU
 		{9541613E-73E5-4FAF-B0CE-6A9B87E33E5E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{9541613E-73E5-4FAF-B0CE-6A9B87E33E5E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CD0B2503-D177-44A0-B626-A5D969D6B6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0B2503-D177-44A0-B626-A5D969D6B6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0B2503-D177-44A0-B626-A5D969D6B6DB}.Release (Version)|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0B2503-D177-44A0-B626-A5D969D6B6DB}.Release (Version)|Any CPU.Build.0 = Release|Any CPU
+		{CD0B2503-D177-44A0-B626-A5D969D6B6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0B2503-D177-44A0-B626-A5D969D6B6DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
