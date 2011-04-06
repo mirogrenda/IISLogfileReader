@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Text;
 
 namespace Akentas.IisLogfileReader.W3C
 {
@@ -104,7 +105,7 @@ namespace Akentas.IisLogfileReader.W3C
 		#region // #### MG: Methods
 		public void Open()
 		{
-			this.sr = new StreamReader(this.filepath);
+			this.sr = new StreamReader(this.filepath, Encoding.Default);
 			this.endOfFile = false;
 		}
 
